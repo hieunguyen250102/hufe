@@ -627,7 +627,11 @@ input[type="submit"] {
   #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .logo a img,
   #rt_header nav #navigation .sticky-nav-white .logo a img {
     margin-top: 2px;
-    width: 130px; }
+    max-width:130px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+  }
     @media only screen and (max-width: 360px) {
       #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .logo a img,
       #rt_header nav #navigation .sticky-nav-white .logo a img {
